@@ -23,3 +23,16 @@ Pacotes:
 - `consultas`: consultas JPQL e Criteria
 - `carga`: carga inicial dos dados
 - `app`: interface de console
+
+## Data Warehouse e ETL
+O DW fica no mesmo banco, em schemas separados: `dw` (estrela), `dw_floco` (floco de neve), `stg` (staging) e `etl` (procedures e controle).
+
+Rodar nesta ordem:
+1. `sql/dw/ddl_estrela.sql`
+2. `sql/dw/ddl_floco_neve.sql`
+3. `sql/etl/01_staging_e_controle.sql`
+4. `sql/etl/02_procedures_etl.sql`
+5. `sql/etl/03_executar_etl.sql`: a primeira execução faz a carga completa; as próximas só carregam o que entrou de novo no OLTP
+6. `sql/etl/04_validacao_carga.sql`: confere o DW com o OLTP
+
+Para rodar o ETL de novo depois de mexer no sistema: `CALL etl.sp_executar();`
