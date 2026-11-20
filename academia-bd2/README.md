@@ -36,3 +36,11 @@ Rodar nesta ordem:
 6. `sql/etl/04_validacao_carga.sql`: confere o DW com o OLTP
 
 Para rodar o ETL de novo depois de mexer no sistema: `CALL etl.sp_executar();`
+
+## OLAP e mineração
+1. `sql/olap/01_consultas_olap.sql`: roll-up, drill-down, slice, dice e pivot (2 consultas de cada)
+2. `sql/olap/02_comparacao_tempo.sql`: mesma consulta no OLTP, na estrela e no floco de neve, com o tempo médio
+3. `sql/olap/03_exportar_base_mineracao.sql`: gera `mineracao/base_transacoes.csv` (rodar pelo psql a partir da pasta do projeto)
+4. Em `mineracao/`: `pip install -r requirements.txt` e abrir `apriori_academia.ipynb` no Jupyter
+
+As regras encontradas ficam em `mineracao/regras_associacao.csv`.
