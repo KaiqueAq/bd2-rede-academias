@@ -1,0 +1,1 @@
+\copy (SELECT f.id_matricula, i.nome AS item, i.categoria, i.departamento FROM dw.fato_matricula f JOIN dw.dim_item i ON i.sk_item = f.sk_item ORDER BY f.id_matricula, i.departamento DESC, i.nome) TO 'mineracao/base_transacoes.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8')

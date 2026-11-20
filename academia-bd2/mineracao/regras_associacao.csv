@@ -1,0 +1,111 @@
+se_comprar,entao_compra,support,confidence,lift
+Luva de Boxe,Protetor Bucal,0.0266,0.6892,23.2148
+Protetor Bucal,Luva de Boxe,0.0266,0.8947,23.2148
+Protetor Bucal,"Luva de Boxe, Plano Lutas",0.0266,0.8947,23.2148
+Luva de Boxe,"Plano Lutas, Protetor Bucal",0.0266,0.6892,23.2148
+"Plano Lutas, Protetor Bucal",Luva de Boxe,0.0266,0.8947,23.2148
+"Luva de Boxe, Plano Lutas",Protetor Bucal,0.0266,0.6892,23.2148
+Óculos de Natação,"Plano Natação, Touca de Natação",0.0474,0.8426,12.4444
+Touca de Natação,"Plano Natação, Óculos de Natação",0.0474,0.7,12.4444
+"Plano Natação, Touca de Natação",Óculos de Natação,0.0474,0.7,12.4444
+"Plano Natação, Óculos de Natação",Touca de Natação,0.0474,0.8426,12.4444
+Óculos de Natação,Touca de Natação,0.0474,0.8426,12.4444
+Touca de Natação,Óculos de Natação,0.0474,0.7,12.4444
+Plano Lutas,Bandagem para Lutas,0.0568,0.6158,10.8475
+Bandagem para Lutas,Plano Lutas,0.0568,1.0,10.8475
+Luva de Boxe,Plano Lutas,0.0385,1.0,10.8475
+Plano Lutas,Luva de Boxe,0.0385,0.4181,10.8475
+Protetor Bucal,Plano Lutas,0.0297,1.0,10.8475
+"Bandagem para Lutas, Luva de Boxe",Plano Lutas,0.0229,1.0,10.8475
+"Luva de Boxe, Protetor Bucal",Plano Lutas,0.0266,1.0,10.8475
+Bandagem para Lutas,"Luva de Boxe, Plano Lutas",0.0229,0.4037,10.4736
+Luva de Boxe,"Bandagem para Lutas, Plano Lutas",0.0229,0.5946,10.4736
+"Luva de Boxe, Plano Lutas",Bandagem para Lutas,0.0229,0.5946,10.4736
+Luva de Boxe,Bandagem para Lutas,0.0229,0.5946,10.4736
+Bandagem para Lutas,Luva de Boxe,0.0229,0.4037,10.4736
+"Bandagem para Lutas, Plano Lutas",Luva de Boxe,0.0229,0.4037,10.4736
+"Plano Natação, Toalha de Treino",Óculos de Natação,0.0203,0.5493,9.7653
+Toalha de Treino,"Plano Natação, Óculos de Natação",0.0203,0.5493,9.7653
+Toalha de Treino,Óculos de Natação,0.0203,0.5493,9.7653
+"Toalha de Treino, Touca de Natação",Plano Natação,0.0234,1.0,9.3659
+"Touca de Natação, Óculos de Natação",Plano Natação,0.0474,1.0,9.3659
+Plano Natação,Touca de Natação,0.0677,0.6341,9.3659
+Touca de Natação,Plano Natação,0.0677,1.0,9.3659
+Óculos de Natação,Plano Natação,0.0562,1.0,9.3659
+Toalha de Treino,Plano Natação,0.037,1.0,9.3659
+Plano Natação,"Touca de Natação, Óculos de Natação",0.0474,0.4439,9.3659
+"Toalha de Treino, Óculos de Natação",Plano Natação,0.0203,1.0,9.3659
+Plano Natação,Óculos de Natação,0.0562,0.5268,9.3659
+Toalha de Treino,Touca de Natação,0.0234,0.6338,9.3608
+"Plano Natação, Toalha de Treino",Touca de Natação,0.0234,0.6338,9.3608
+Toalha de Treino,"Plano Natação, Touca de Natação",0.0234,0.6338,9.3608
+"Coqueteleira, Creatina, Plano Musculação",Whey Protein,0.0214,1.0,9.0995
+"Coqueteleira, Creatina","Plano Musculação, Whey Protein",0.0214,1.0,9.0995
+Coqueteleira,Whey Protein,0.0385,1.0,9.0995
+Coqueteleira,"Plano Musculação, Whey Protein",0.0385,1.0,9.0995
+"Coqueteleira, Plano Musculação",Whey Protein,0.0385,1.0,9.0995
+"Coqueteleira, Creatina",Whey Protein,0.0214,1.0,9.0995
+Faixa Elástica,Plano Funcional,0.0307,1.0,8.8479
+Tapete de Yoga,Plano Pilates,0.0396,1.0,8.8073
+Plano Pilates,Avaliação Postural,0.05,0.4404,8.8073
+Avaliação Postural,Plano Pilates,0.05,1.0,8.8073
+"Coqueteleira, Plano Musculação","Creatina, Whey Protein",0.0214,0.5541,8.5789
+Coqueteleira,"Creatina, Plano Musculação, Whey Protein",0.0214,0.5541,8.5789
+Coqueteleira,"Creatina, Whey Protein",0.0214,0.5541,8.5789
+Plano Alimentar Personalizado,"Personal Trainer, Plano Musculação",0.024,0.5679,7.7331
+Plano Alimentar Personalizado,Personal Trainer,0.0422,1.0,6.8327
+"Plano Alimentar Personalizado, Plano Musculação",Personal Trainer,0.024,1.0,6.8327
+"Avaliação Física, Whey Protein","Creatina, Plano Musculação",0.0323,0.6019,5.8077
+"Avaliação Física, Plano Musculação, Whey Protein",Creatina,0.0323,0.6019,5.8077
+"Avaliação Física, Whey Protein",Creatina,0.0323,0.6019,5.8077
+"Avaliação Física, Creatina, Plano Musculação",Whey Protein,0.0323,0.6327,5.7568
+"Avaliação Física, Creatina","Plano Musculação, Whey Protein",0.0323,0.6327,5.7568
+"Avaliação Física, Creatina",Whey Protein,0.0323,0.6327,5.7568
+Creatina,Whey Protein,0.0646,0.6231,5.6701
+"Creatina, Plano Musculação",Whey Protein,0.0646,0.6231,5.6701
+Creatina,"Plano Musculação, Whey Protein",0.0646,0.6231,5.6701
+Whey Protein,Creatina,0.0646,0.5877,5.6701
+Whey Protein,"Creatina, Plano Musculação",0.0646,0.5877,5.6701
+"Plano Musculação, Whey Protein",Creatina,0.0646,0.5877,5.6701
+Coqueteleira,Creatina,0.0214,0.5541,5.3456
+"Coqueteleira, Whey Protein","Creatina, Plano Musculação",0.0214,0.5541,5.3456
+"Coqueteleira, Whey Protein",Creatina,0.0214,0.5541,5.3456
+Coqueteleira,"Creatina, Plano Musculação",0.0214,0.5541,5.3456
+"Coqueteleira, Plano Musculação",Creatina,0.0214,0.5541,5.3456
+"Coqueteleira, Plano Musculação, Whey Protein",Creatina,0.0214,0.5541,5.3456
+"Consulta Nutricionista, Plano Musculação",Personal Trainer,0.024,0.6301,4.3056
+Consulta Nutricionista,Personal Trainer,0.051,0.5026,3.4339
+Luva de Treino,"Avaliação Física, Plano Musculação",0.024,0.5055,2.4759
+"Creatina, Whey Protein","Avaliação Física, Plano Musculação",0.0323,0.5,2.449
+Creatina,"Avaliação Física, Plano Musculação",0.051,0.4925,2.4121
+"Avaliação Física, Luva de Treino",Plano Musculação,0.024,1.0,2.406
+"Avaliação Física, Whey Protein",Plano Musculação,0.0536,1.0,2.406
+"Personal Trainer, Whey Protein",Plano Musculação,0.0208,1.0,2.406
+"Coqueteleira, Creatina, Whey Protein",Plano Musculação,0.0214,1.0,2.406
+"Creatina, Whey Protein",Plano Musculação,0.0646,1.0,2.406
+"Coqueteleira, Creatina",Plano Musculação,0.0214,1.0,2.406
+"Coqueteleira, Whey Protein",Plano Musculação,0.0385,1.0,2.406
+"Avaliação Física, Creatina, Whey Protein",Plano Musculação,0.0323,1.0,2.406
+Luva de Treino,Plano Musculação,0.0474,1.0,2.406
+"Avaliação Física, Creatina",Plano Musculação,0.051,1.0,2.406
+Creatina,Plano Musculação,0.1036,1.0,2.406
+Coqueteleira,Plano Musculação,0.0385,1.0,2.406
+Whey Protein,Plano Musculação,0.1099,1.0,2.406
+Whey Protein,"Avaliação Física, Plano Musculação",0.0536,0.4882,2.3909
+"Personal Trainer, Plano Musculação",Avaliação Física,0.0391,0.5319,1.8913
+"Avaliação Física, Personal Trainer",Plano Musculação,0.0391,0.75,1.8045
+"Luva de Treino, Plano Musculação",Avaliação Física,0.024,0.5055,1.7973
+Luva de Treino,Avaliação Física,0.024,0.5055,1.7973
+"Creatina, Whey Protein",Avaliação Física,0.0323,0.5,1.7778
+"Creatina, Plano Musculação, Whey Protein",Avaliação Física,0.0323,0.5,1.7778
+Creatina,Avaliação Física,0.051,0.4925,1.751
+"Creatina, Plano Musculação",Avaliação Física,0.051,0.4925,1.751
+Plano Musculação,Avaliação Física,0.2042,0.4912,1.7466
+Avaliação Física,Plano Musculação,0.2042,0.7259,1.7466
+Whey Protein,Avaliação Física,0.0536,0.4882,1.7357
+"Plano Musculação, Whey Protein",Avaliação Física,0.0536,0.4882,1.7357
+Plano Funcional,Avaliação Física,0.0505,0.447,1.5893
+Plano Total,Avaliação Física,0.0266,0.4215,1.4986
+Plano Alimentar Personalizado,Plano Musculação,0.024,0.5679,1.3664
+"Personal Trainer, Plano Alimentar Personalizado",Plano Musculação,0.024,0.5679,1.3664
+Personal Trainer,Plano Musculação,0.0734,0.5018,1.2073
